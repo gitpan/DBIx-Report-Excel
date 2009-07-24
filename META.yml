@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         DBIx-Report-Excel
-version:      0.1a
+version:      0.1b
 version_from: lib/DBIx/Report/Excel.pm
 installdirs:  site
 requires:
