@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               DBIx-Report-Excel
-version:            0.2
+version:            0.2a
 abstract:           creating Excel reports from SQL statements
 author:
     - Dmytro Kovalov <dmytro.kovalov@gmail.com>
@@ -13,6 +13,7 @@ build_requires:
 requires:
     Data::Tabular::Dumper:  0.06
     Data::Tabular::Dumper::Excel:  0
+    Spreadsheet::WriteExcel:  0
     SQL::Parser:          1.16
     SQL::Script:          1.05
     YAML:                 0.68
