@@ -1,5 +1,0 @@
-* SQL::Parser croacks on ANSI comments (--...). Can not use them now in DBIx::Report::Excel.
-
-* More tests.
-
-* Add reading SQL from SQL script file.

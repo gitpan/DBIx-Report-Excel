@@ -4,7 +4,7 @@ use 5.008008;
 use strict;
 use warnings;
 
-our $VERSION = '0.2a';
+our $VERSION = '0.3';
 
 =head1 NAME
 
@@ -288,7 +288,7 @@ sub __new_page {
   my $parser = SQL::Parser->new();
   $parser->parse($sql);
 
-  if ( scalar @{$parser->structure->{'column_names'}} == scalar @{$self->{'data'}->[0]} ) {
+  if ( scalar @{$parser->structure->{'column_defs'}} == scalar @{$self->{'data'}->[0]} ) {
 				# i.e. column number in SQL statement
 				# same as number of actually selected
 				# columns (it's not  "SELECT *")
@@ -403,6 +403,10 @@ worksheet name as above.
   --- */
 
 =head3 SEE ALSO
+
+ As of 2010, November project repository moved to Github:
+ https://github.com/dmytro/DBIx-Report-Excel
+ 
 
  Script example.pl provides full example of creating report from
  SQLite database. It uses "testdb" database in /tmp directory.

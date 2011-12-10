@@ -1,10 +1,12 @@
 Changes
-example.pl
-example.sql
+example/example.pl
+example/example.sql
 lib/DBIx/Report/Excel.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 README
+t/data/example.sql
 t/DBIx-Report-Excel.t
-TODO
+t/example.t
+t/pod.t
 META.yml                                 Module meta-data (added by MakeMaker)
